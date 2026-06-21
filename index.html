@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<meta charset="UTF-8">
+<title>I Love The Whole World</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="world.js"></script>
+<script src="worldNode.js"></script>
+<link rel="icon" type="image/x-icon" href="globe-013.gif">
+
+<body class="color1">
+
+    <div style="float: right;">
+
+        <p class="link"><a class="link falseButton" onclick="showAbout()">About</a></p>
+        <p class="link"><a class="link" href="https://www.interstellarshareware.net">Interstellar Shareware</a></p>
+
+    </div>
+
+    <div class="floatingCenterDiv" id="iltwwAbout" hidden>
+        <p style="font-weight: bold; font-size: x-large; float: right; margin: 0px 4px;" onclick="hideAbout()" class="falseButton">X</p>
+        <p style="font-weight: bold; font-size: x-large;">I Love The Whole World, It's Such a Brilliant Place</p>
+        <br>
+        <p>I Love The Whole World is a celebration of the interconnectedness of humanity.</p>
+        <p>Clicking on a page title reveals all pages that link away from that page on Wikipedia, creating a branching tree of all of human knowledge.</p>
+        <p>World leads to Phosphine which leads to Psychedelic Rock which leads to Cessna 172 which leads to...</p>
+        <br>
+        <p style="font-weight: bold;">See what you can find.</p>
+        <br>
+        <p>Made with love and a book and the JS docs and no AI because people are cool and the current state of AI utilization and culture sucks.</p>
+    </div>
+
+    <p class="basicText">I</p>
+    <p class="basicText">Love</p>
+    <p class="basicText">The</p>
+    <p class="basicText">Whole</p>
+    
+    <div class="boxRoot">
+        <p class="nodeText root" onClick="fetchChildren('world')" id="world">! World</a>
+    </div>
+
+</body>
+</html>

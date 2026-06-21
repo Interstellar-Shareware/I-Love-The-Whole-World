@@ -1,0 +1,95 @@
+.basicText{
+    margin: 0px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.box {
+    border: 1px solid black;
+    margin: 5px;
+    font-size: medium;
+}
+
+.boxRoot {
+    border: 1px solid black;
+
+}
+
+.root{
+    font-size: x-large;
+}
+
+.nodeText{
+    margin: 0px;
+    padding: 2px;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link{
+    margin: 0px;
+    text-align: right;
+}
+
+.color1{
+    background-color: #f3ead8;
+    color: black;
+}
+
+.color2{
+    background-color: #e1cb9f;
+    color: black;
+}
+
+.color3{
+    background-color: #bcd2c6;
+    color: black;
+}
+
+.color4{
+    background-color: #8eb49f;
+    color: black;
+}
+
+.color5{
+    background-color: #629378;
+    color: black;
+}
+
+.color6{
+    background-color: #436452;
+    color: white;
+}
+
+.floatingCenterDiv{
+    background-color: wheat;
+    border: 1px solid black;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 0;
+    width: 40dvw;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.falseButton{
+    cursor: pointer;
+}
